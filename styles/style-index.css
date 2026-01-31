@@ -1,0 +1,30 @@
+/* Mobile layout */
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  border: 4px ridge var(--mediumBrown);
+  border-radius: 10px;
+  box-shadow: 3px 2px 4px var(--darkShadow),
+              7px 6px 5px var(--lightShadow);
+}
+
+
+/* Middle layout */
+
+@media screen and (width > 850px) {
+
+section {
+  display: flow-root;
+}
+ 
+picture {
+  float: inline-start;
+  margin: 15px 25px 0px 2px;
+}
+
+picture.flipped {
+  float: inline-end;
+  margin: 39px 15px 0px 15px;
+ }
+}
