@@ -106,7 +106,7 @@ footer p {
 h1, h2 {
   margin: 0;
   font-family: "Sofadi One", "Times New Roman", "Times", serif;
-  text-shadow: 2px 2px 3px var(--darkShadow);
+  text-shadow: 2px 2px 3px var(--lightShadow);
 }
  
 h1 {
@@ -467,4 +467,5 @@ footer {
 button, label, nav {
   display: none;
  }
+
 }
